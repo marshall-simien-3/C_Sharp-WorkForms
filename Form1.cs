@@ -35,6 +35,7 @@ namespace WorkForms
 
         private void testButton_Click(object sender, EventArgs e)
         {
+            //Push values from text Boxes to Work class members.
             var testWork = new Work();
             testWork.Name = txtBoxWorkName.Text;
             txtWorkOutputLabel.Text = txtBoxWorkName.Text;
